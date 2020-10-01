@@ -56,3 +56,17 @@
   417  sudo docker exec nexus cat nexus-data/ admin.password
   418  sudo docker exec nexus cat nexus-data/admin.password
   419  history
+###
+- What was the challenge?
+To create a Jenkins pipeline which takes app and on every push to the repository, tests the app, creates the docker image and pushes the image to a nexus repository.
+
+- How I expected the challenge to go.
+
+- What went well?
+
+
+- What didn't go as planned?
+
+- Possible improvements for future challenges.
+
+
