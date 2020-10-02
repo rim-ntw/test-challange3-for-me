@@ -1,3 +1,3 @@
 #! /bin/bash
 
-sudo docker push localhost:8000/nbs-challenge-3
+sudo docker push localhost:8082/nbs-challenge-3
