@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Test') {
       steps {
-        sh "./nbs-challenge-3/tests.sh"
+       sh "./scripts/test.sh"
       }
     }
   }
