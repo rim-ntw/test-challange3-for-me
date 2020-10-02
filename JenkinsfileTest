@@ -1,9 +1,11 @@
 pipeline {
   agent any
-    stages ('Test') {
+  stages {
+    stage ('Test') {
       steps {
         sh "./nbs-challenge-3/tests.sh"
       }
     }
+  }
 }
 
