@@ -1,21 +1,15 @@
 pipeline {
   agent any
-  stages {
-    stage ('Build') {
-      steps {
-    
-      }
-    }
     stage ('Test') {
       steps {
         sh "./nbs-challenge-3/tests.sh"
       }
     }
-    stage ('Deploy') {
-      steps {
+#    stage ('Deploy') {
+ #     steps {
     
-      }
-    }
-  }
+  #    }
+   # }
+ # }
 }
 
