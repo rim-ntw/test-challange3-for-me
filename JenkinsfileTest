@@ -5,11 +5,5 @@ pipeline {
         sh "./nbs-challenge-3/tests.sh"
       }
     }
-#    stage ('Deploy') {
- #     steps {
-    
-  #    }
-   # }
- # }
 }
 
