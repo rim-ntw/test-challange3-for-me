@@ -3,12 +3,12 @@ pipeline {
 	stages {
 		stage('Build Images'){
 			steps{
-				sh "./scripts/build_image_strech.sh"
+				sh "./scripts/build_image_stretch.sh"
 			}
 		}
 		stage('Push Images'){
 			steps{
-				sh "./scripts/push_image_strech.sh"
+				sh "./scripts/push_image_stretch.sh"
 			}
 		}
 	}
